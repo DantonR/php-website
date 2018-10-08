@@ -1,0 +1,43 @@
+html {
+  background-color: #ffebdb
+}
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  float: left;
+  font-style: italic;
+  text-transform: uppercase;
+  color: #f06d06;
+  font-size: 120px;
+}
+
+h1:hover {
+  color: black;
+}
+
+h1, p, h2, li {
+  font-family: 'Courier New', Courier, monospace
+}
+
+ul {
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
