@@ -1,4 +1,5 @@
 <?php
+  $page = 'features';
   include('templates/header.php');
   // require();
 ?>

@@ -1,5 +1,6 @@
 <?php
-  include('templates/header.php');
+  $page = 'home';
+  require('templates/header.php');
   // require();
 ?>
 

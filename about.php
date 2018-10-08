@@ -1,6 +1,6 @@
 <?php
-  include('templates/header.php');
-  // require();
+  $page = 'about';
+  require('templates/header.php');
 ?>
 
   <main>
