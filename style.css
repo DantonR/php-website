@@ -31,7 +31,7 @@ a {
   color: rgb(165, 165, 165);
 }
 
-h1, p, h2, li {
+h1, p, h2, li, .labels, form {
   font-family: 'Courier New', Courier, monospace
 }
 

@@ -12,7 +12,7 @@
 </head>
 <body>
   <header>
-    <a href="index.php"><h1>PHP & HTML - <?= $page; ?> </h1></a>
+    <a href="index.php"><h1>PHP & HTML <br>- <?= $page; ?> </h1></a>
     <ul>
       <a href="features.php" class= '<?php if($page === "features"):?>active<?php endif ?>'><li>Features</li></a>
       <a href="contect.php" class= '<?php if($page === "contact"):?>active<?php endif ?>'><li>Contact</li></a>
